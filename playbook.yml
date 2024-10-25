@@ -12,4 +12,5 @@
 
     - name: Display VLAN information
       debug:
-        msg: "{{ show_vlan.stdout_lines }}"
+        msg: "{{show_vlan.stdout_lines}}"
+
